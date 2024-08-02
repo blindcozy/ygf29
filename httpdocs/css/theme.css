@@ -18293,18 +18293,20 @@ body {
 
 .main-container {
     background-color: #21070B;
-    background-image: url(../images/29bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-	background-size: cover;
+    background-image: url(../images/mandala.png), url(../images/29bg.jpg);
+    background-position: right center, center;
+    background-repeat: no-repeat, no-repeat;
+	background-size: 50% 100%, cover;
+    background-attachment: fixed, fixed;
 }
 
 .about-container {
     background-color: #21070B;
-    background-image: url(../images/left-cloud.png), url(../images/top2.png), url(../images/bottom2.png), url(../images/bg-left.png), url(../images/bg-right.png), url(../images/about-bg.png);
-    background-position: left top, center top, center bottom, left top, right top, center bottom;
-    background-repeat: no-repeat, repeat-x, repeat-x, repeat-y, repeat-y, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-	background-size: auto 100px, auto 100px, auto 100px, 70px auto, 70px auto, contain;
+    background-image: url(../images/mandala.png), url(../images/29bg.jpg);
+    background-position: 50% 220%, center;
+    background-repeat: no-repeat, no-repeat;
+	background-size: 60% auto, cover;
+    background-attachment: fixed, fixed;
 }
 
 .partners-container {

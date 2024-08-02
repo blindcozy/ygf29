@@ -61,28 +61,6 @@ foreach ($countriesarr as $countryarr) {
                         </div>
                     </div>
                 </div> -->
-                <style type="text/css">
-                    .button-home {
-                        line-height: 40px;
-                    }
-                    @media (max-width:767px) {
-                        .button-home {
-                            line-height: 20px;
-                        }
-                    }
-                </style>
-                <div class="uk-child-width-auto uk-margin uk-flex-center" uk-grid>
-                    <div>
-                        <a class="uk-link-reset" href="#lokakarya-gamelan" uk-toggle>
-                            <img src="images/workshop-button.svg" height="100" uk-svg />
-                        </a>
-                    </div>
-                    <div>
-                        <a class="uk-link-reset" href="#rembug-budaya" uk-toggle>
-                            <img src="images/rembug-budaya-button.svg" height="100" uk-svg />
-                        </a>
-                    </div>
-                </div>
             </div>
             <div class="uk-width-1-4@m">
                 <div style="background-color:rgba(4,1,51,.71);">
@@ -194,9 +172,6 @@ foreach ($countriesarr as $countryarr) {
 					<a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
 					<a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
 				</div> -->
-                <div class="uk-text-right uk-light">
-                    Developed by<br/><a class="uk-link-reset uk-text-bold" href="https://binary111.com" target="_blank">PT. Kodebiner Teknologi Indonesia</a>
-                </div>
                 <div id="datacontainer" class="uk-flex-top" uk-modal>
                     <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light" style="background-color:#000; border:2px solid #fff; width:350px;">
                         <p>Mohon masukkan data diri anda untuk bisa memulai mengirim pesan</p>
@@ -258,30 +233,76 @@ foreach ($countriesarr as $countryarr) {
                 </script>
             </div>
         </div>
+        <div>
+            <style>
+                .button-home {
+                    display: block;
+                    background-image: url(images/29bg.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    border: 2px solid #fff;
+                    color: #fff;
+                    padding: 15px 15px 15px 60px;
+                    font-family: "Cinzel Decorative", serif;
+                    font-size: 20px;
+                    line-height: 1;
+                    font-weight: 700;
+                    position: relative;
+                    overflow: hidden;
+                }
+                .button-home:hover,
+                .button-home:active {
+                    color: #fff;
+                    text-decoration: none;
+                }
+                .home-button-image {
+                    height: 100px;
+                    width: 100px;
+                    position: absolute;
+                    left: -50px;
+                    bottom: -50px;
+                }
+            </style>
+            <?php
+            if ($ismobile) {
+                $menu = 'uk-flex-center';
+                $socmed = 'uk-flex-center';
+                $copyright = 'uk-text-center';
+            } else {
+                $menu = 'uk-flex-between';
+                $socmed = 'uk-flex-left';
+                $copyright = 'uk-text-left';
+            }
+            ?>
+            <div class="uk-margin uk-grid-small uk-child-width-auto <?=$menu?>" uk-grid>
+                <div>
+                    <a class="button-home"><img class="home-button-image" src="images/mandala.png" /> Lokakarya</a>
+                </div>
+                <div>
+                    <a class="button-home"><img class="home-button-image" src="images/mandala.png" /> Rembug Budaya</a>
+                </div>
+                <div>
+                    <a class="button-home"><img class="home-button-image" src="images/mandala.png" /> Konser 3 Maestro</a>
+                </div>
+                <div>
+                    <a class="button-home"><img class="home-button-image" src="images/mandala.png" /> Konser Gamelan</a>
+                </div>
+                <div>
+                    <a class="button-home"><img class="home-button-image" src="images/mandala.png" /> Gaung Gamelan</a>
+                </div>
+            </div>
+            <div class="uk-margin uk-light uk-child-width-auto <?=$socmed?>" uk-grid>
+                <div>
+                    <a class="uk-link-text" href="https://www.facebook.com/YogyakartaGamelanFestival" target="_blank"><span uk-icon="facebook"></span> YogyakartaGamelanFestival</a>
+                </div>
+                <div>
+                    <a class="uk-link-text" href="https://www.instagram.com/komunitasgayam16/" target="_blank"><span uk-icon="instagram"></span> komunitasgayam16</a>
+                </div>
+            </div>
+            <div class="uk-margin uk-light <?=$copyright?>">
+                Developed by <a class="uk-text-bold" href="https://binary111.com" target="_blank">Kodebiner Teknologi Indonesia</a>
+            </div>
+        </div>
     </div>
 </section>
-<div id="lokakarya-gamelan" class="uk-flex-top" uk-modal>
-    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light" style="background-color:#000; border:2px solid #fff;">
-        <h2 class="uk-modal-title uk-text-center">Lokakarya Gamelan</h2>
-		<div class="uk-margin-small">
-			<img class="uk-width-1-1" src="images/LOKA-04.jpg" />
-		</div>
-        <div class="uk-child-width-auto uk-flex-center" uk-grid>
-            <div><a class="uk-button uk-button-secondary uk-text-uppercase" href="http://bit.ly/LokakaryaRembugBudayaYGF" target="_blank">Daftar</a></div>
-            <div><a class="uk-button uk-button-primary uk-text-uppercase" href="program#lokakarya-gamelan">Info</a></div>
-        </div>
-    </div>
-</div>
-<div id="rembug-budaya" class="uk-flex-top" uk-modal>
-    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light" style="background-color:#000; border:2px solid #fff;">
-        <h2 class="uk-modal-title uk-text-center">Rembug Budaya</h2>
-		<div class="uk-margin-small">
-			<img class="uk-width-1-1" src="images/REMBUG-BUDAYA-02.jpg" />
-		</div>
-        <div class="uk-child-width-auto uk-flex-center" uk-grid>
-            <div><a class="uk-button uk-button-secondary uk-text-uppercase" href="http://bit.ly/LokakaryaRembugBudayaYGF" target="_blank">Daftar</a></div>
-            <div><a class="uk-button uk-button-primary uk-text-uppercase" href="program#rembug-budaya">Info</a></div>
-        </div>
-    </div>
-</div>
 <?= $this->endSection() ?>

@@ -38,13 +38,12 @@
 
 		  gtag('config', 'G-QFPERZQMRJ');
 		</script>
-        <?= $this->renderSection('pageStyles') ?>
     </head>
     <body>
 		<div class="about-container" uk-height-viewport>
 			<?= view('Views/menu') ?>
 			<section class="uk-section">
-				<div class="uk-container uk-light" style="background-color:rgba(0,0,0,0.6); border-radius:20px;">
+				<div class="uk-container uk-light" style="background-color:rgba(4,1,51,0.6); border: 4px solid #fff; border-radius:20px;">
 					<div class="uk-section-small">
 						<h1 class="uk-text-center">28th Yogyakarta Gamelan Festival</h1>
 						<p>Yogyakarta Gamelan Festival (YGF) merupakan sebuah perayaan atas gamelan, yang menjadi tempat berkumpul para pemain dan pecinta gamelan seluruh dunia, dan sudah diselenggarakan sejak tahun 1994 oleh Sapto Raharjo (alm). Peristiwa ini penting untuk dilakukan sebagai salah satu langkah strategis dalam memajukan kebudayaan Indonesia untuk memberikan kontribusi kepada peradaban dunia.</p>
@@ -52,40 +51,31 @@
 						<p>Gamelan telah melampaui dengungnya, gamelan : beyond sound…</p>
 					</div>
 				</div>
-				<div class="uk-margin uk-text-right uk-light uk-container">
-					Developed by<br/><a class="uk-link-reset uk-text-bold" href="https://binary111.com" target="_blank">PT. Kodebiner Teknologi Indonesia</a>
-				</div>
 			</section>
-		</div>
-		<footer class="tm-footer uk-section-small">
-			<div class="uk-container">
-						<div class="uk-child-auto uk-flex-center" uk-grid style="color:#21080c;">
-							<div class="uk-text-center uk-text-left@m">
-								<a class="uk-link-reset" href="https://www.facebook.com/YogyakartaGamelanFestival" target="_blank"><span uk-icon="facebook"></span> YogyakartaGamelanFestival</a>
-							</div>
-							<div class="uk-text-center uk-text-left@m">
-								<a class="uk-link-reset" href="https://www.instagram.com/komunitasgayam16/" target="_blank"><span uk-icon="instagram"></span> komunitasgayam16</a>
-							</div>
-							<div class="uk-text-center uk-text-left@m">
-								<a class="uk-link-reset" href="https://twitter.com/gayam16" target="_blank">
-									<svg width="22" height="22" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1668.56 1221.19" style="enable-background:new 0 0 1668.56 1221.19;" xml:space="preserve">
-										<g id="layer1" transform="translate(52.390088,-25.058597)">
-											<path id="path1009" d="M283.94,167.31l386.39,516.64L281.5,1104h87.51l340.42-367.76L984.48,1104h297.8L874.15,558.3l361.92-390.99
-												h-87.51l-313.51,338.7l-253.31-338.7H283.94z M412.63,231.77h136.81l604.13,807.76h-136.81L412.63,231.77z"/>
-										</g>
-									</svg> @Gayam16</a>
-							</div>
-							<div class="uk-text-center uk-text-left@m">
-								<a class="uk-link-reset" href="https://www.youtube.com/c/Gayam16" target="_blank"><span uk-icon="youtube"></span> Gayam 16</a>
-							</div>
-							<div class="uk-text-center uk-text-left@m">
-								#YGF28
-							</div>
-							<div class="uk-text-center uk-text-left@m">
-								#GamelanBeyondSound
-							</div>
+			<footer class="uk-section uk-section-small">
+				<div class="uk-container">
+					<?php
+					if ($ismobile) {
+						$socmed = 'uk-flex-center';
+                	$copyright = 'uk-text-center';
+					} else {
+						$socmed = 'uk-flex-left';
+                		$copyright = 'uk-text-left';
+					}
+					?>
+					<div class="uk-margin uk-light uk-child-width-auto uk-flex-center" uk-grid>
+						<div>
+							<a class="uk-link-text" href="https://www.facebook.com/YogyakartaGamelanFestival" target="_blank"><span uk-icon="facebook"></span> YogyakartaGamelanFestival</a>
 						</div>
-			</div>
-		</footer>
+						<div>
+							<a class="uk-link-text" href="https://www.instagram.com/komunitasgayam16/" target="_blank"><span uk-icon="instagram"></span> komunitasgayam16</a>
+						</div>
+					</div>
+					<div class="uk-margin uk-light uk-text-center">
+						Developed by <a class="uk-text-bold" href="https://binary111.com" target="_blank">Kodebiner Teknologi Indonesia</a>
+					</div>
+				</div>
+			</footer>
+		</div>
     </body>
 </html>
