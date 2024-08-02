@@ -47,10 +47,10 @@
 			<section class="uk-section">
 				<div class="uk-container uk-light" style="background-color:rgba(4,1,51,0.6); border: 4px solid #fff; border-radius:20px;">
 					<div class="uk-section-small">
-						<h1 class="uk-text-center">28th Yogyakarta Gamelan Festival</h1>
-						<p>Yogyakarta Gamelan Festival (YGF) merupakan sebuah perayaan atas gamelan, yang menjadi tempat berkumpul para pemain dan pecinta gamelan seluruh dunia, dan sudah diselenggarakan sejak tahun 1994 oleh Sapto Raharjo (alm). Peristiwa ini penting untuk dilakukan sebagai salah satu langkah strategis dalam memajukan kebudayaan Indonesia untuk memberikan kontribusi kepada peradaban dunia.</p>
-						<p>Tahun ini, YGF ingin mengapresiasi usaha-usaha yang telah dilakukan dalam melestarikan dan mengembangkan gamelan sebagai budaya bangsa oleh para pendahulu. Usaha ini telah menciptakan ruang kemungkinan yang semakin membesar. Banyak pelaku seni lintas disiplin melibatkan gamelan dalam proses kreatif mereka. Ini adalah bukti gamelan telah dan sedang berkembang. Sementara, keadiluhungan gamelan tetap dijaga oleh para punggawanya.</p>
-						<p>Gamelan telah melampaui dengungnya, gamelan : beyond sound…</p>
+						<h1 class="uk-text-center">29th Yogyakarta Gamelan Festival</h1>
+						<p>Yogyakarta Gamelan Festival (YGF) merupakan festival yang mempertemukan pemain dan pencinta gamelan. Beberapa tahun yang lalu dunia dilanda pandemi, dan di masa-masa itu dunia seakan reset, kembali seperti semula, lalu setelah berhasil “bangkit’ dari masa pandemi yang merupakan masa kegelapan bagi seluruh dunia.</p>
+						<h3>"PIWELING"</h3>
+						<p>Bahwa manusia mulai merindukan asalnya, natural, alami, mendengarkan hati dan berterima kasih, menjaga kebersamaan, untuk merawat dan berkembang.</p>
 					</div>
 				</div>
 			</section>
