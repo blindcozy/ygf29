@@ -62,7 +62,7 @@ class Home extends BaseController
 		$PressModel = new PressModel();
 
 		// Populating Data
-		$press = $PressModel->orderBy('created_at', 'DESC')->findAll();
+		$press = $PressModel->orderBy('created_at', 'ASC')->findAll();
 
 		$url = 'https://news.google.com/rss/search?q=Yogyakarta%20Gamelan%20Festival&hl=id&gl=ID&ceid=ID%3Aid';
 		$feeds = simplexml_load_file($url);

@@ -273,16 +273,16 @@ foreach ($countriesarr as $countryarr) {
             ?>
             <div class="uk-margin uk-grid-small uk-child-width-auto <?=$menu?>" uk-grid>
                 <div>
-                    <a class="button-home"><img class="home-button-image" src="images/mandala.png" /> Lokakarya</a>
+                    <a class="button-home" href="program#lokakarya"><img class="home-button-image" src="images/mandala.png" /> Lokakarya</a>
                 </div>
                 <div>
-                    <a class="button-home"><img class="home-button-image" src="images/mandala.png" /> Rembug Budaya</a>
+                    <a class="button-home" href="program#rembug-budaya"><img class="home-button-image" src="images/mandala.png" /> Rembug Budaya</a>
                 </div>
                 <div>
-                    <a class="button-home"><img class="home-button-image" src="images/mandala.png" /> Concert</a>
+                    <a class="button-home" href="program#konser-gamelan"><img class="home-button-image" src="images/mandala.png" /> Concert</a>
                 </div>
                 <div>
-                    <a class="button-home"><img class="home-button-image" src="images/mandala.png" /> Gaung Gamelan</a>
+                    <a class="button-home" href="program#gaung-gamelan"><img class="home-button-image" src="images/mandala.png" /> Gaung Gamelan</a>
                 </div>
             </div>
             <div class="uk-margin uk-light uk-child-width-auto <?=$socmed?>" uk-grid>
