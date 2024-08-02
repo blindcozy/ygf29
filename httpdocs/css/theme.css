@@ -10035,7 +10035,8 @@ ul.uk-nav-sub {
     text-transform: uppercase;
     letter-spacing: 1px;
     min-height: 0;
-    /* background: #02a18d; */
+    background-image: url(../images/29bg.jpg);
+    background-size: cover;
     border: 2px solid #fff;
     border-radius: 5px;
     margin: 0 10px;

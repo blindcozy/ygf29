@@ -14,8 +14,8 @@
                             <li><a href="artist">Artist</a></li>-->
                             <li><a href="program">Program</a></li>
                             <li><a href="news">News</a></li>
-                            <li><a href="galeri">Gallery</a></li>
-                            <li><a href="merchandise">Merchandise</a></li>
+                            <!-- <li><a href="galeri">Gallery</a></li>
+                            <li><a href="merchandise">Merchandise</a></li> -->
                             <li><a href="partners">Partners</a></li>
                         </ul>
                     </div>
@@ -56,8 +56,8 @@
                                         <li><a href="artist">Artist</a></li>-->
                                         <li><a href="program">Program</a></li>
                                         <li><a href="news">News</a></li>
-										<li><a href="galeri">Gallery</a></li>
-										<li><a href="merchandise">Merchandise</a></li>
+										<!-- <li><a href="galeri">Gallery</a></li>
+										<li><a href="merchandise">Merchandise</a></li> -->
                                         <li><a href="partners">Partners</a></li>
                                     </ul>
                                 </div>

@@ -157,7 +157,7 @@ foreach ($countriesarr as $countryarr) {
                         </form>
                     </div>
                 </div> -->
-				<div class="uk-position-relative uk-visible-toggle uk-light uk-margin-top" tabindex="-1" uk-slideshow="animation: pull; autoplay: true; ratio: 9:16">
+				<div class="uk-position-relative uk-visible-toggle uk-margin-top" tabindex="-1" uk-slideshow="animation: pull; autoplay: true; ratio: 9:16">
 					<ul class="uk-slideshow-items">
 						<li>
 							<a href="program#lokakarya-gamelan"><img src="images/LOKAKARYA-01.jpg" alt="Lokakarya" uk-cover></a>
