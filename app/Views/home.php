@@ -31,7 +31,7 @@ foreach ($countriesarr as $countryarr) {
         <div class="uk-grid-small" uk-grid>
             <div class="uk-width-3-4@m">
                 <div class="uk-width-1-1 uk-margin uk-margin-top embed-container">
-                    <iframe src="https://www.youtube.com/embed/kYE5rVuhgHQ?modestbranding=1&autoplay=1&mute=1&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/18Pcn1T7nEc?modestbranding=1&autoplay=1&mute=1&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <!-- <div class="uk-width-1-1 uk-height-large uk-flex uk-flex-middle uk-flex-center uk-margin-top">
                     <div class="uk-h1 uk-text-center uk-light">THANK YOU!<br/><br/>See you next year..</div>
@@ -63,7 +63,7 @@ foreach ($countriesarr as $countryarr) {
                 </div> -->
             </div>
             <div class="uk-width-1-4@m">
-                <div style="background-color:rgba(4,1,51,.71);">
+                <!-- <div style="background-color:rgba(4,1,51,.71);">
                     <div id="showmessage" class="uk-margin-top uk-panel uk-panel-scrollable" style="height:500px; border:none;">
                     </div>
                     <script type="application/javascript">
@@ -156,22 +156,19 @@ foreach ($countriesarr as $countryarr) {
                             </div>
                         </form>
                     </div>
-                </div>
-				<!-- <div class="uk-position-relative uk-visible-toggle uk-light uk-margin-top" tabindex="-1" uk-slideshow="animation: pull; autoplay: true; ratio: 9:16">
+                </div> -->
+				<div class="uk-position-relative uk-visible-toggle uk-light uk-margin-top" tabindex="-1" uk-slideshow="animation: pull; autoplay: true; ratio: 9:16">
 					<ul class="uk-slideshow-items">
 						<li>
-							<a href="program#lokakarya-gamelan"><img src="images/LOKA-03.jpg" alt="Lokakarya" uk-cover></a>
+							<a href="program#lokakarya-gamelan"><img src="images/LOKAKARYA-01.jpg" alt="Lokakarya" uk-cover></a>
 						</li>
 						<li>
-							<a href="program#rembug-budaya"><img src="images/REMBUG-BUDAYA-01.jpg" alt="Rembug Budaya" uk-cover></a>
-						</li>
-						<li>
-							<a href="program#konser-gamelan"><img src="images/RUNDOW-HARIAN-02.jpg" alt="Konser Gamelan" uk-cover></a>
+							<a href="program#rembug-budaya"><img src="images/REMBUG-03.jpg" alt="Rembug Budaya" uk-cover></a>
 						</li>
 					</ul>
 					<a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
 					<a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
-				</div> -->
+				</div>
                 <div id="datacontainer" class="uk-flex-top" uk-modal>
                     <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light" style="background-color:#000; border:2px solid #fff; width:350px;">
                         <p>Mohon masukkan data diri anda untuk bisa memulai mengirim pesan</p>
@@ -244,7 +241,7 @@ foreach ($countriesarr as $countryarr) {
                     color: #fff;
                     padding: 15px 15px 15px 60px;
                     font-family: "Cinzel Decorative", serif;
-                    font-size: 20px;
+                    font-size: 30px;
                     line-height: 1;
                     font-weight: 700;
                     position: relative;
@@ -282,10 +279,7 @@ foreach ($countriesarr as $countryarr) {
                     <a class="button-home"><img class="home-button-image" src="images/mandala.png" /> Rembug Budaya</a>
                 </div>
                 <div>
-                    <a class="button-home"><img class="home-button-image" src="images/mandala.png" /> Konser 3 Maestro</a>
-                </div>
-                <div>
-                    <a class="button-home"><img class="home-button-image" src="images/mandala.png" /> Konser Gamelan</a>
+                    <a class="button-home"><img class="home-button-image" src="images/mandala.png" /> Concert</a>
                 </div>
                 <div>
                     <a class="button-home"><img class="home-button-image" src="images/mandala.png" /> Gaung Gamelan</a>
