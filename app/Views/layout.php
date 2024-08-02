@@ -26,7 +26,9 @@
 		<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
 		<link rel='stylesheet' href='/css/theme.css' type='text/css' media='all' />
+		<link rel='stylesheet' href='/css/fontawesome.min.css' type='text/css' media='all' />
 		<script type='text/javascript' src='/js/uikit.min.js'></script>
+		<script type='text/javascript' src='/js/fontawesome.min.js'></script>
 		<script type='text/javascript' src='/js/uikit-icons.min.js' defer></script>
 		<script type='text/javascript' src='/js/theme.js' defer></script>
 		<!-- Global site tag (gtag.js) - Google Analytics -->

@@ -2,7 +2,7 @@
 
 <?= $this->section('main') ?>
 <section class="uk-section">
-    <div class="uk-container uk-light" style="background-color:rgba(1,162,143,0.8); border-radius:20px;">
+    <div class="uk-container uk-light" style="background-color:rgba(4,1,51,0.6); border-radius:20px;">
         <div class="uk-section-small">
             <div id="gaung-gamelan" class="uk-margin">
                 <h2 class="uk-text-uppercase">Gaung Gamelan</h2>

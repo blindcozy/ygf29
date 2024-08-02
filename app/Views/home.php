@@ -287,10 +287,16 @@ foreach ($countriesarr as $countryarr) {
             </div>
             <div class="uk-margin uk-light uk-child-width-auto <?=$socmed?>" uk-grid>
                 <div>
-                    <a class="uk-link-text" href="https://www.facebook.com/YogyakartaGamelanFestival" target="_blank"><span uk-icon="facebook"></span> YogyakartaGamelanFestival</a>
+                    <a class="uk-link-text" href="https://www.facebook.com/YogyakartaGamelanFestival" target="_blank"><i class="fa-brands fa-facebook"></i> YogyakartaGamelanFestival</a>
                 </div>
                 <div>
-                    <a class="uk-link-text" href="https://www.instagram.com/komunitasgayam16/" target="_blank"><span uk-icon="instagram"></span> komunitasgayam16</a>
+                    <a class="uk-link-text" href="https://www.instagram.com/komunitasgayam16/" target="_blank"><i class="fa-brands fa-instagram"></i> komunitasgayam16</a>
+                </div>
+                <div>
+                    <a class="uk-link-text" href="https://x.com/Gayam16" target="_blank"><i class="fa-brands fa-x-twitter"></i> @Gayam16</a>
+                </div>
+                <div>
+                    <a class="uk-link-text" href="https://www.youtube.com/@Gayam16" target="_blank"><i class="fa-brands fa-youtube"></i> Gayam16</a>
                 </div>
             </div>
             <div class="uk-margin uk-light <?=$copyright?>">

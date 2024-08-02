@@ -26,7 +26,9 @@
 		<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
 		<link rel='stylesheet' href='/css/theme.css' type='text/css' media='all' />
+		<link rel='stylesheet' href='/css/fontawesome.min.css' type='text/css' media='all' />
 		<script type='text/javascript' src='/js/uikit.min.js'></script>
+		<script type='text/javascript' src='/js/fontawesome.min.js'></script>
 		<script type='text/javascript' src='/js/uikit-icons.min.js' defer></script>
 		<script type='text/javascript' src='/js/theme.js' defer></script>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -65,10 +67,16 @@
 					?>
 					<div class="uk-margin uk-light uk-child-width-auto uk-flex-center" uk-grid>
 						<div>
-							<a class="uk-link-text" href="https://www.facebook.com/YogyakartaGamelanFestival" target="_blank"><span uk-icon="facebook"></span> YogyakartaGamelanFestival</a>
+							<a class="uk-link-text" href="https://www.facebook.com/YogyakartaGamelanFestival" target="_blank"><i class="fa-brands fa-facebook"></i> YogyakartaGamelanFestival</a>
 						</div>
 						<div>
-							<a class="uk-link-text" href="https://www.instagram.com/komunitasgayam16/" target="_blank"><span uk-icon="instagram"></span> komunitasgayam16</a>
+							<a class="uk-link-text" href="https://www.instagram.com/komunitasgayam16/" target="_blank"><i class="fa-brands fa-instagram"></i> komunitasgayam16</a>
+						</div>
+						<div>
+							<a class="uk-link-text" href="https://x.com/Gayam16" target="_blank"><i class="fa-brands fa-x-twitter"></i> @Gayam16</a>
+						</div>
+						<div>
+							<a class="uk-link-text" href="https://www.youtube.com/@Gayam16" target="_blank"><i class="fa-brands fa-youtube"></i> Gayam16</a>
 						</div>
 					</div>
 					<div class="uk-margin uk-light uk-text-center">
