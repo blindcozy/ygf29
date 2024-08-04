@@ -5,8 +5,8 @@
 <?= $this->endSection() ?>
 
 <?= $this->section('main') ?>
-<section class="uk-section">
-    <div class="uk-container" style="background-color:rgba(255,255,255,0.8); border-radius:20px;">
+<section class="uk-section uk-padding-remove-bottom">
+    <div class="uk-container" style="background-color:rgba(4,1,51,0.6); border: 4px solid #fff; border-radius:20px;">
         <div class="uk-section-small">
             <?php foreach ($articles as $article) { ?>
                 <article class="uk-article uk-card uk-card-default uk-card-hover uk-grid-collapse uk-margin" uk-grid>
@@ -65,8 +65,35 @@
             </div>
         </div>
     </div>
-    <div class="uk-margin uk-text-right uk-light uk-container">
-        Developed by<br/><a class="uk-link-reset uk-text-bold" href="https://binary111.com" target="_blank">PT. Kodebiner Teknologi Indonesia</a>
-    </div>
 </section>
+<footer class="uk-section uk-section-small">
+    <div class="uk-container">
+        <?php
+        if ($ismobile) {
+            $socmed = 'uk-flex-center';
+        $copyright = 'uk-text-center';
+        } else {
+            $socmed = 'uk-flex-left';
+            $copyright = 'uk-text-left';
+        }
+        ?>
+        <div class="uk-margin uk-light uk-child-width-auto uk-flex-center" uk-grid>
+            <div>
+                <a class="uk-link-text" href="https://www.facebook.com/YogyakartaGamelanFestival" target="_blank"><i class="fa-brands fa-facebook"></i> YogyakartaGamelanFestival</a>
+            </div>
+            <div>
+                <a class="uk-link-text" href="https://www.instagram.com/komunitasgayam16/" target="_blank"><i class="fa-brands fa-instagram"></i> komunitasgayam16</a>
+            </div>
+            <div>
+                <a class="uk-link-text" href="https://x.com/Gayam16" target="_blank"><i class="fa-brands fa-x-twitter"></i> @Gayam16</a>
+            </div>
+            <div>
+                <a class="uk-link-text" href="https://www.youtube.com/@Gayam16" target="_blank"><i class="fa-brands fa-youtube"></i> Gayam16</a>
+            </div>
+        </div>
+        <div class="uk-margin uk-light uk-text-center">
+            Developed by <a class="uk-text-bold" href="https://binary111.com" target="_blank">Kodebiner Teknologi Indonesia</a>
+        </div>
+    </div>
+</footer>
 <?= $this->endSection() ?>

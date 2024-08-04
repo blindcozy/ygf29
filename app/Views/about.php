@@ -44,7 +44,7 @@
     <body>
 		<div class="about-container" uk-height-viewport>
 			<?= view('Views/menu') ?>
-			<section class="uk-section">
+			<section class="uk-section uk-padding-remove-bottom">
 				<div class="uk-container uk-light" style="background-color:rgba(4,1,51,0.6); border: 4px solid #fff; border-radius:20px;">
 					<div class="uk-section-small">
 						<h1 class="uk-text-center">29th Yogyakarta Gamelan Festival</h1>

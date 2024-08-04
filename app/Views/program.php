@@ -1,7 +1,7 @@
 <?= $this->extend('layout') ?>
 
 <?= $this->section('main') ?>
-<section class="uk-section">
+<section class="uk-section uk-padding-remove-bottom">
     <div class="uk-container uk-light" style="background-color:rgba(4,1,51,0.6); border: 4px solid #fff; border-radius:20px;">
         <div class="uk-section-small">
             <div id="lokakarya" class="uk-margin">

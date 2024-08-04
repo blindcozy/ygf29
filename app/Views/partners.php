@@ -43,75 +43,73 @@
     <body>
 		<div class="partners-container" uk-height-viewport>
 			<?= view('Views/menu') ?>
-<section class="uk-section">
-    <div class="uk-container uk-container-xlarge" style="background-color:rgba(255,255,255,0.8); border-radius:20px;">
-        <div class="uk-section-small">
-            <div class="uk-margin uk-child-width-auto uk-flex-center uk-flex-bottom" uk-grid>
-                <div><img src="images/logos/dinas-kebudayaan.png" /></div>
-                <div><img src="images/logos/danais.png" /></div>
-                <div><a href="https://www.djarumfoundation.org/aktivitas/kegiatan/budaya/" target="_blank"><img src="images/logos/djarum-foundation.png" /></a></div>
-                <div><img src="images/logos/ambarrukmo.png" /></div>
-            </div>
-            <div class="uk-margin-large uk-child-width-auto uk-flex-center uk-flex-middle" uk-grid>
-                <div><img src="images/logos/jogfest.png" /></div>
-                <div><img src="images/logos/ppi.png" /></div>
-                <div><img src="images/logos/saab.png" /></div>
-                <div><img src="images/logos/dc-pro.png" /></div>
-                <div><img src="images/logos/koran-merapi.png" /></div>
-                <div><img src="images/logos/eventweb.png" /></div>
-                <div><img src="images/logos/korambernas.png" /></div>
-                <div><img src="images/logos/krjogja.png" /></div>
-                <div><img src="images/logos/ekbizz.png" /></div>
-                <div><img src="images/logos/liputan6.png" /></div>
-                <div><img src="images/logos/lensajogja.png" /></div>
-                <div><img src="images/logos/geronimo.png" /></div>
-                <div><img src="images/logos/jogjafamily.png" /></div>
-                <div><img src="images/logos/sonora.png" /></div>
-                <div><img src="images/logos/swaragama.png" /></div>
-                <div><img src="images/logos/acaraseni.png" /></div>
-                <div><img src="images/logos/jaringacara.png" /></div>
-                <div><img src="images/logos/prodvokator.png" /></div>
-                <div><img src="images/logos/paijo.png" /></div>
-                <div><img src="images/logos/pyy.png" /></div>
-                <div><img src="images/logos/nyatanya.png" /></div>
-                <div><img src="images/logos/uma.png" /></div>
-            </div>
-        </div>
-    </div>
-    <div class="uk-margin uk-text-right uk-light uk-container uk-container-xlarge">
-        Developed by<br/><a class="uk-link-reset uk-text-bold" href="https://binary111.com" target="_blank">PT. Kodebiner Teknologi Indonesia</a>
-    </div>
-</section>
-		</div>
-		<footer class="tm-footer uk-section-small">
-			<div class="uk-container">
-						<div class="uk-child-auto uk-flex-center" uk-grid style="color:#21080c;">
-							<div class="uk-text-center uk-text-left@m">
-								<a class="uk-link-reset" href="https://www.facebook.com/YogyakartaGamelanFestival" target="_blank"><span uk-icon="facebook"></span> YogyakartaGamelanFestival</a>
-							</div>
-							<div class="uk-text-center uk-text-left@m">
-								<a class="uk-link-reset" href="https://www.instagram.com/komunitasgayam16/" target="_blank"><span uk-icon="instagram"></span> komunitasgayam16</a>
-							</div>
-							<div class="uk-text-center uk-text-left@m">
-								<a class="uk-link-reset" href="https://twitter.com/gayam16" target="_blank">
-									<svg width="22" height="22" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1668.56 1221.19" style="enable-background:new 0 0 1668.56 1221.19;" xml:space="preserve">
-										<g id="layer1" transform="translate(52.390088,-25.058597)">
-											<path id="path1009" d="M283.94,167.31l386.39,516.64L281.5,1104h87.51l340.42-367.76L984.48,1104h297.8L874.15,558.3l361.92-390.99
-												h-87.51l-313.51,338.7l-253.31-338.7H283.94z M412.63,231.77h136.81l604.13,807.76h-136.81L412.63,231.77z"/>
-										</g>
-									</svg> @Gayam16</a>
-							</div>
-							<div class="uk-text-center uk-text-left@m">
-								<a class="uk-link-reset" href="https://www.youtube.com/c/Gayam16" target="_blank"><span uk-icon="youtube"></span> Gayam 16</a>
-							</div>
-							<div class="uk-text-center uk-text-left@m">
-								#YGF28
-							</div>
-							<div class="uk-text-center uk-text-left@m">
-								#GamelanBeyondSound
-							</div>
+			<section class="uk-section uk-padding-remove-bottom">
+				<div class="uk-container uk-container-xlarge" style="background-color:rgba(4,1,51,0.6); border: 4px solid #fff; border-radius:20px;">
+					<div class="uk-section-small">
+						<!-- <div class="uk-margin uk-child-width-auto uk-flex-center uk-flex-bottom" uk-grid>
+							<div><img src="images/logos/dinas-kebudayaan.png" /></div>
+							<div><img src="images/logos/danais.png" /></div>
+							<div><a href="https://www.djarumfoundation.org/aktivitas/kegiatan/budaya/" target="_blank"><img src="images/logos/djarum-foundation.png" /></a></div>
+							<div><img src="images/logos/ambarrukmo.png" /></div>
 						</div>
-			</div>
-		</footer>
+						<div class="uk-margin-large uk-child-width-auto uk-flex-center uk-flex-middle" uk-grid>
+							<div><img src="images/logos/jogfest.png" /></div>
+							<div><img src="images/logos/ppi.png" /></div>
+							<div><img src="images/logos/saab.png" /></div>
+							<div><img src="images/logos/dc-pro.png" /></div>
+							<div><img src="images/logos/koran-merapi.png" /></div>
+							<div><img src="images/logos/eventweb.png" /></div>
+							<div><img src="images/logos/korambernas.png" /></div>
+							<div><img src="images/logos/krjogja.png" /></div>
+							<div><img src="images/logos/ekbizz.png" /></div>
+							<div><img src="images/logos/liputan6.png" /></div>
+							<div><img src="images/logos/lensajogja.png" /></div>
+							<div><img src="images/logos/geronimo.png" /></div>
+							<div><img src="images/logos/jogjafamily.png" /></div>
+							<div><img src="images/logos/sonora.png" /></div>
+							<div><img src="images/logos/swaragama.png" /></div>
+							<div><img src="images/logos/acaraseni.png" /></div>
+							<div><img src="images/logos/jaringacara.png" /></div>
+							<div><img src="images/logos/prodvokator.png" /></div>
+							<div><img src="images/logos/paijo.png" /></div>
+							<div><img src="images/logos/pyy.png" /></div>
+							<div><img src="images/logos/nyatanya.png" /></div>
+							<div><img src="images/logos/uma.png" /></div>
+						</div> -->
+						<img class="uk-width-1-1" src="images/partners.jpg" />
+					</div>
+				</div>
+			</section>
+			<footer class="uk-section uk-section-small">
+				<div class="uk-container">
+					<?php
+					if ($ismobile) {
+						$socmed = 'uk-flex-center';
+					$copyright = 'uk-text-center';
+					} else {
+						$socmed = 'uk-flex-left';
+						$copyright = 'uk-text-left';
+					}
+					?>
+					<div class="uk-margin uk-light uk-child-width-auto uk-flex-center" uk-grid>
+						<div>
+							<a class="uk-link-text" href="https://www.facebook.com/YogyakartaGamelanFestival" target="_blank"><i class="fa-brands fa-facebook"></i> YogyakartaGamelanFestival</a>
+						</div>
+						<div>
+							<a class="uk-link-text" href="https://www.instagram.com/komunitasgayam16/" target="_blank"><i class="fa-brands fa-instagram"></i> komunitasgayam16</a>
+						</div>
+						<div>
+							<a class="uk-link-text" href="https://x.com/Gayam16" target="_blank"><i class="fa-brands fa-x-twitter"></i> @Gayam16</a>
+						</div>
+						<div>
+							<a class="uk-link-text" href="https://www.youtube.com/@Gayam16" target="_blank"><i class="fa-brands fa-youtube"></i> Gayam16</a>
+						</div>
+					</div>
+					<div class="uk-margin uk-light uk-text-center">
+						Developed by <a class="uk-text-bold" href="https://binary111.com" target="_blank">Kodebiner Teknologi Indonesia</a>
+					</div>
+				</div>
+			</footer>
+		</div>
     </body>
 </html>

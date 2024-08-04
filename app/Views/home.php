@@ -29,7 +29,7 @@ foreach ($countriesarr as $countryarr) {
 <section>
     <div class="uk-container uk-container-expand">
         <div class="uk-grid-small" uk-grid>
-            <div class="uk-width-3-4@m">
+            <div class="uk-width-3-4@m uk-flex uk-flex-bottom">
                 <div class="uk-width-1-1 uk-margin uk-margin-top embed-container">
                     <iframe src="https://www.youtube.com/embed/18Pcn1T7nEc?modestbranding=1&autoplay=1&mute=1&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
